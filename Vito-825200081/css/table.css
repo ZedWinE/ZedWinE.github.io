@@ -1,0 +1,21 @@
+table, th, td {border: 1px solid blue;}
+table {font-family: "Arial";}
+
+caption {background-color: black; color: white;
+         font-size: 26px; padding: 10px;}
+
+th, td {padding: 5px 25px;}
+
+thead {background-color: rgb(4, 212, 240); color: black;}
+tbody {background-color: rgb(58, 110, 221);}
+td {color: white;}
+tfoot {color: black; background: silver;}
+
+tbody tr td:nth-child(2) {
+    text-align: center;}
+
+tbody tr td:nth-child(3),
+tbody tr td:nth-child(4) {
+    text-align: right;}
+
+tr:nth-child(even) {background-color: red ;}

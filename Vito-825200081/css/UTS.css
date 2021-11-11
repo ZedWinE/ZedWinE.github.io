@@ -1,0 +1,347 @@
+.d1{position: relative;
+        width: 1000px;
+        margin: auto;}
+.logo a {float: left;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 48px;
+       font-weight: bold;
+       color: black;}
+.menu {float: right;}
+nav {position: fixed;
+   text-align: center;
+   border-bottom: 2px solid black;
+   line-height: 70px; width: 100%;
+   z-index: 5;
+   transition: background-color 1s ease;
+   color: white;;
+   border-bottom:2px solid brown;}
+nav.gam {background-color: #fff;}
+nav .gambar {position: relative;
+   float: left;    
+   line-height: 70px;
+   text-align: center;}
+nav .gambar img {width: 150px; vertical-align: middle;}
+nav ul {margin: 0;padding: 0;
+       list-style-type: none;
+       overflow: hidden;}
+nav ul li {float: left;}
+nav ul li a {color: black;
+           text-align: center;
+           padding: 0px 15px 0px 15px;
+           text-decoration: none;}
+nav ul li a:hover {text-decoration: underline;}
+a.signup {margin-top: 20px;
+           padding: 15px 20px 15px 20px;
+           background: rgb(6, 158, 108);
+           border-radius: 21px;
+           color: #FFFFFF;}
+a.signup:hover {background: red;
+                  text-decoration: none;}
+
+header {position: relative;
+       height: 100vh; width: 100%;
+       z-index: 3;
+       overflow: hidden;}
+header video {position: absolute;
+             top: 0; left: 0;
+             object-fit: cover;
+             z-index: -1;}
+header .awalan {position: relative; top: 50%;
+               text-align: center;
+               color: black;
+               z-index: 5;}             
+header .awalan h4 {font-size: 60px;
+                 margin: 0; padding: 0;}
+body {margin: 0px; padding: 0px;}
+.d1 {margin: auto;width: 1000px;}
+.full {width: 100%;}    
+
+.button {display: inline-block;
+       padding: 0px 15px 0px 15px;
+       height: 35px; line-height: 40px;
+       background-color: red;
+       text-decoration: none;
+       font-size: 20px;
+       color: #fff;
+       border-radius: 10px;}
+header .cover {position: absolute;
+             top: 0;left: 0;
+             height: 100%;width: 100%;
+             opacity: 50%;
+             z-index: -2;
+             background-color: black;}
+
+section {padding: 30px 0px 30px 0px;}
+section h3 {font-size: 40px;}
+#about {text-align: center;}
+section p.isi {font-style: italic;
+             font-size: 22px;}  
+
+.kolom {float: left; overflow: hidden;}
+a.more {margin-right: -65px;
+       color: red;
+       text-decoration: none;}
+.kolom .kiri {float: left; width: 450px; 
+            margin-left: 150px; }
+.kolom .kiri img {width: 200px; margin-top: 30px; 
+                float: left; 
+                padding-right: 15px;padding-bottom: 15px; }
+.kolom .kiri h2{font-size: 20px;
+               margin-top: 25px; }
+.kolom .kiri p {margin-top: 0; 
+               margin-left: 10px; 
+               padding: 5px; text-align: justify;}
+.kolom .kanan {float:left; width: 450px; 
+               margin-left: 40px;}
+.kolom .kanan img {width: 200px; margin-top: 30px; 
+                 float: left; 
+                 padding-right: 15px; padding-bottom: 15px;}
+.kolom .kanan h2 {font-size: 20px;
+                 margin-top: 25px; }
+.kolom .kanan p {margin-top: 0; 
+                margin-left: 0; 
+                padding: 5px;text-align: justify;}
+
+.banner {position: relative;}
+a.travel {text-decoration: none;}
+.banner img {width: 100%;
+           height: 500px;
+           object-fit: cover;
+           margin-top: 50px;}
+.quotes{position: absolute;
+       width: 100%;
+       margin-top: -300px;
+       margin-right: 500px;
+       text-align: center;}
+
+.dalam {text-align: center;
+       overflow: hidden;}
+.all .left {float: left; 
+            width: 470px;
+            margin-left: 200px;}
+a.lebih {background: #ed563b;
+       color: #fff;
+       text-align: center;
+       padding: 15px 5px;
+       width: 40%;
+       border-radius: 5px;
+       display: inline-block;
+       text-decoration: none;}
+
+a.lihat {background: #ed563b;
+       color: #fff;
+       text-align: center;
+       padding: 15px 5px;
+       width: 30%;
+       border-radius: 5px;
+       display: inline-block;
+       text-decoration: none;}
+.all .left img {width: 45px;}
+.all .left ul {list-style: none;}
+.all .left ul li {margin-top: 25px;
+                   margin-bottom:45px;
+                   width: 250px;
+                   display: inline-block;
+                   font-weight: bold;}
+.all .right {float: left;
+           width: 450px;
+           text-align: justify;}
+.all .right img {width: 450px;}
+
+.background {position: relative;
+             margin-top: 15px;}
+.tulisan {position: absolute;
+         top: 0;
+         left: 0;
+         bottom: 0;
+         width: 100%;}
+.background img {width: 100%;
+                margin-top: 80px;}
+.background .tulis {position: absolute;
+                   width: 80%;
+                   left: 50%;top: 75%;
+                   text-align: center;
+                   transform: translate(-50%,-50%);}
+
+table {margin-left: 120px;}
+table, th, td {border: 3px solid blue;
+                margin-right: 10px;}
+
+caption {background-color: black; color: white;
+         font-size: 26px; padding: 8px 15px 10px 10px;}
+
+th, td {padding: 5px 25px;}
+
+thead {background-color: rgb(4, 212, 240); color: black;}
+tbody {background-color: rgb(58, 110, 221);}
+td {color: white;}
+tfoot {color: black; background: rgb(58, 110, 221);}
+
+tbody tr td:nth-child(2) {
+    text-align: center;}
+
+tbody tr td:nth-child(3) {
+        text-align: center;}
+tbody tr td:nth-child(4) {
+    text-align: center;}
+
+.tourguide{text-align: center;}
+.guide {float: left; 
+        overflow: hidden;}
+.guide .guide1 {float: left;   
+                width: 330px;
+                margin-left: 70px;}
+.guide .guide1 img {width: 250px; 
+                   margin-top: 30px;  
+                   padding-right: 15px;
+                   padding-bottom: 15px;}
+.guide .guide1 h2{font-size: 20px;
+                margin-top: 25px; 
+                margin-right: -10px;}
+.guide .guide1 p {margin-top: 0; 
+                  margin-left: 10px; 
+                  padding: 5px;
+                  text-align: justify;}
+.guide .guide1 ul.sosmed li{display: inline-block;
+                            margin-right: 50px;}
+.guide .guide1 ul.sosmed img {width: 15px;
+                              height: 15px;
+                              margin-left: -10px;
+                              margin-top: -150px;}
+
+
+.guide .guide2 {float:left; 
+                width: 330px; 
+                margin-left: 70px;}
+.guide .guide2 img {width: 250px; 
+                   margin-top: 30px;  
+                   padding-right: 15px; 
+                   padding-bottom: 15px;}
+.guide .guide2 h2 {font-size: 20px;
+                   margin-top: 25px; 
+                   margin-right: 0;}
+.guide .guide2 p{margin-top: 0; 
+                 margin-left: 0; 
+                 padding: 5px;
+                 text-align: justify;}
+.guide .guide2 ul.sosmed li{display: inline-block;
+                            margin-right: 50px;}
+.guide .guide2 ul.sosmed img {width: 15px;
+                              height: 15px;
+                              margin-left: -10px;
+                              margin-top: -150px;}
+
+.guide .guide3 {float:left; 
+                width: 330px; 
+                margin-left: 70px;}
+.guide .guide3 img {width: 250px; 
+                  margin-top: 30px;  
+                  padding-right: 15px; 
+                  padding-bottom: 15px;}
+.guide .guide3 h2 {font-size: 20px;
+                  margin-top: 25px; 
+                  margin-right: 0;}
+.guide .guide3 p{margin-top: 0; 
+                 margin-left: 0; 
+                 padding: 5px;
+                 text-align: justify;}
+.guide .guide3 ul.sosmed li{display: inline-block;
+                            margin-right: 50px;}
+.guide .guide3 ul.sosmed img {width: 15px;
+                              height: 15px;
+                              margin-left: -10px;
+                              margin-top: -150px;}
+
+.contact{margin-top: 90px;
+        margin-bottom: 15px;
+        padding-top: 350px;}
+
+.contact .akhirnya{display: flex;}
+.contact .akhirnya .map{flex: 1 1 200px;
+                        height: 600px;}
+.contact .akhirnya .akhirnya2 {flex: 1 1 100px;
+                               padding: 80px;
+                               background-image: url(../images/BG.jfif);
+                               background-position: center;
+                               background-size: cover;
+                               background-repeat: no-repeat;}
+.contact .akhirnya2 form{padding: 80px;
+                         margin-top: 10px;
+                         border-radius: 5px;
+                         background-color: white;}
+.contact .akhirnya2 form input, textarea{width:80%; 
+                                        padding: 7px;
+                                        font-size: 15px;
+                                        margin-bottom: 15px;
+                                        border: 1px solid silver;}
+.contact .akhirnya2 form  textarea{height: 50px;}
+.contact .akhirnya2 form .but {background: #ed563b;
+                                color: #fff;
+                                text-align: center;
+                                padding: 10px 3px;
+                                width: 40%;
+                                border-radius: 8px;
+                                display: inline-block;
+                                text-decoration: none;
+                                margin-left: -80px;}
+
+.judul {position: absolute;
+       width: 100%;
+       margin-top: 120px;
+       margin-bottom: ;
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;}
+.judul h3 {font-size: 20px;
+            margin-bottom: 10px;
+            margin-top: 15px;}
+.judul img {width: 300px;
+            height: 35px;}
+.judul p {margin-top: 10px;}
+
+form {margin-top: 300px;}
+form .oke button {background: #ed563b;
+              color: #fff;
+              text-align: center;
+              padding: 8px 1px;
+              width: 10%;
+              border-radius: 8px;
+              display: inline-block;
+              text-decoration: none;
+              margin-left: 10px;
+              margin-top: 25px;}
+
+form .a1 button {position: relative;
+       left: -300px;
+       top: 25px;
+       background: green;
+       width: 10%;
+       padding: 10px;}
+form .a2 button {position: relative;
+       top: -15px;
+       left: -125px;
+       background: lightblue;
+       padding: 10px;}
+form .a3 button {position: relative;
+       top: -55px;
+       left: 50px;
+       background: yellow;
+       padding: 10px;}
+form .a4 button {position: relative;
+       top: -95px;
+       left: 300px;
+       background: red;
+       padding: 10px;}
+
+@media screen and (max-width: 900px) 
+{.d1 {width: 90%;}
+
+       
+   
+
+
+               
+
+
+             
+
+

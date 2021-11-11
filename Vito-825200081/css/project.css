@@ -1,0 +1,26 @@
+* {padding: 0; margin: 0;}
+
+
+.banner {background: url("https://d1bpj0tv6vfxyp.cloudfront.net/articles/109067_10-2-2021_15-9-14.webp")
+         no-repeat center center;
+         background-size: cover;
+         padding-top: 250px;
+         padding-bottom: 250px;
+         color: rgb(3, 32, 32);} 
+
+.lingk{display: inline-block;
+       border-radius: 150px;
+       width: 120px;
+       margin: auto;
+       height: 120px;
+       color: black;
+       background-color: silver;}
+
+.lingk i {position: relative;
+          top: 25px;}
+          
+.item img {width: 250px;
+          border: 5px solid red;}
+
+.item h4 {margin-top: 20px;}
+

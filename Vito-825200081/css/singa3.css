@@ -1,0 +1,92 @@
+* {padding: 0; margin: 0;}
+
+.container {width: 1000px; margin: auto;}
+
+/* ini css header*/
+header {height: 125px; background:black; overflow: hidden;}
+header .kiri img {width: 100px; height: 100px; margin: 15px 0 0 35px; float: left; clip-path: circle(50%);}
+header .kanan {font-size: 20px; color: white; float: left;
+                margin-top: 15px; margin-left: 90px;}
+header .kanan p {margin-left: 0;}
+
+menu{height: 35px; background: #F8EFBA; 
+    margin-bottom: 5px; 
+    position: sticky; 
+    top:0px;
+    z-index: 1;}
+nav ul li {float: left; list-style: none; 
+            background: gray; }
+nav ul li a {margin-right: 15px; 
+            text-decoration: none;
+            padding: 35px 35px;}
+nav ul li ul {display: none;}
+nav ul li:hover > ul {display: block;}
+nav {position: relative; 
+    background: gray; 
+    height: 35px;
+    line-height: 35px;}
+nav ul li ul {position: absolute;}
+nav ul li ul li {float: none;
+                 position: relative;}
+nav ul li:hover {background: black;}
+nav ul li a:hover {color: white;}
+nav ul ul ul {left: 100%; top: 0; width: 190px;}
+
+article {overflow: hidden; margin-top: 20px;}
+article  h1 {color: rgb(42, 5, 252); margin-bottom: 10px; font-size: 30px; font-family: gambria;}
+article p {text-align: justify; margin-bottom: 15px;}
+article .kiri {float: left; width: 300px;}
+article .kiri p {margin-left: 0;}
+article .kiri .kiritengah {background: #000103;padding: 15px; 
+                           left: 0px; 
+                           position: fixed;}
+article .kiri .kiritengah h1 {color: white; }
+article .kiri  h2 {color: black; margin-top: 25px; margin-bottom: 15px ;}
+article .kiri .kiritengah img {width: 45px; padding-right: 20px;}
+article .kiri .kiritengah img:hover {width: 55px ;}
+article .kanan {float: right; width: 650px;}
+article .kanan .atas img {width: 650px; height: 340px;
+                          -webkit-mask-image: radial-gradient(circle at 40% 70%, black 20%, rgba(0, 0, 0, 0.4) 26%);}
+article .kanan .atas p {margin-top: 20px; margin-left: 0;}
+article .kanan .bawah {overflow: hidden; margin-top: 45px;}
+article .kanan .bawah .kiribawah {width: 315px; float: left; border-left: 4px solid red; margin-left: 8px;}
+article .kanan .bawah .kananbawah {width: 315px; float: right; border-left: 4px solid red;}
+article .kanan .bawah .kananbawah img {width: 45px; margin-left: 12px;}
+article .kanan .bawah h1,p {margin-left: 12px;}
+
+
+.kolom {float: left; overflow: hidden;}
+.kolom .kiri {float: left; width: 300px; }
+.kolom .kiri img {width: 150px; margin-top: 30px; float: left; padding-right: 15px;padding-bottom: 15px; }
+.kolom .kiri h2{font-size: 20px;
+                margin-top: 25px; 
+                margin-right: -10px;}
+.kolom .kiri p {margin-top: 0; 
+                margin-left: 10px; 
+                padding: 5px;text-align: justify;}
+
+.kolom .tengah {float:left; width: 300px; margin-left: 40px;}
+.kolom .tengah img {width: 150px; margin-top: 30px; float: left; padding-right: 15px; padding-bottom: 15px;}
+.kolom .tengah h2 {font-size: 20px;
+                   margin-top: 25px; 
+                   margin-right: 0;}
+.kolom .tengah p {margin-top: 0; 
+                  margin-left: 0; 
+                  padding: 5px;
+                  text-align: justify;}
+
+.kolom .kanan {float:left; width: 300px; margin-left: 40px;}
+.kolom .kanan img {width: 150px; margin-top: 30px; float: left; padding-right: 15px; padding-bottom: 15px;}
+.kolom .kanan h2 {font-size: 20px;
+                  margin-top: 25px; 
+                  margin-right: 0;}
+.kolom .kanan p {margin-top: 0; 
+                 margin-left: 0; 
+                 padding: 5px;text-align: justify;}
+ 
+footer {background: red; color: white; text-align: center; font-size: 15px;
+        line-height: 40px; height: 40px; margin-top: 300px;
+        position: sticky;
+        bottom: 0px;}
+footer a {color: white;}
+
